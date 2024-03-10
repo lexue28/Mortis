@@ -10,6 +10,9 @@ import UIKit
 import TabularData
 
 final class ageClass {
+  var convert: DataFrame = [:]
+  var stats: DataFrame = [:]
+  
   func getStats(name : String) -> DataFrame.Slice {
     // Columns: Id,Name,Short description,Gender,Country,Occupation,Birth year,Death year,Manner of death,Age of death
 
